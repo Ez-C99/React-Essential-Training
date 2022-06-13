@@ -11,6 +11,7 @@ React code is declarative
 
 
 ## 1.2 JSX
+
 React creates JS objects, describing the DOM element we want to put on the page
 
 <p>
@@ -20,3 +21,22 @@ Note:
 - This is why we use ReactDOM.render instead of the normal JS .append()
 - React DOM objects interpreted in a way the browser understands
 </p>
+
+<br>
+
+## 1.3 Components
+
+<dl>
+<dt>React component<dt>
+<dd>function that returns React elements<dd>
+
+<br>
+
+### 1.3.1 Component Conventions
+
+- Use Pascal case instead of camel case (captialise first letter of function identifier)
+- Wrap in angle brackets (like HTML element) to call: `<function />`
+
+<br>
+
+### Parent-Child Components
