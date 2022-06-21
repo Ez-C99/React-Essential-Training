@@ -39,4 +39,32 @@ Note:
 
 <br>
 
-### Parent-Child Components
+### 1.3.2 Parent-Child Components
+
+<br>
+
+### 1.3.3 Organising Components
+Steps:
+1. Place any component in a separate .js file
+2. `import React from "react"` at the top
+3. `export default ComponentName` at function declaration OR bottom of file to allow for export
+4. `import ComponentName from "./Component.js"` at the top of the index.js file
+
+<br>
+
+## 1.4 Styling with CSS Classes
+Steps:
+1. Define a className in the HTML element property
+2. Create a CSS file and import it into the index.js file
+3. Define CSS properties for elements notation:
+```
+.className {
+  property: value;
+}
+```
+
+<br>
+
+# 2. AirBnB Experiences Clone
+
+## 2.1 Props
