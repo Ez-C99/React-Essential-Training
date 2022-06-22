@@ -68,3 +68,52 @@ Steps:
 # 2. AirBnB Experiences Clone
 
 ## 2.1 Props
+Make components reusable
+- Pass (object) data into components so it doesn't have to be hard coded every time
+- Any type of data whether visible data or metadata
+
+### 2.1.1 Passing in Prop Data
+
+Pass in prop parameters as properties in component call
+```
+<Component
+  prop1=""
+  prop2=""
+  propn=""
+/>
+```
+
+<br>
+
+### 2.1.2 Receiving Props
+
+Pass `props` (standard term) as a parameter into the component function declaration
+
+Declaration Example:
+```
+export default function Component(props) {
+  return (
+    <div>
+      <img src={props.img}/>
+      <h1>{props.heading}</h1>
+    </div>
+  )
+}
+```
+
+<br>
+
+### Passing Non-String Vales into Props
+
+Use curly brackets to enter in JS data types and structures
+
+Example:
+```
+<Joke 
+  punchline="It’s hard to explain puns to kleptomaniacs because they always take things literally."
+  isPun={true}
+  upvotes={10}
+  downvotes={2}
+  comments={[{author: "", body: "", title: ""}]}
+/>
+```
